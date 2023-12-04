@@ -3,36 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-<img src="logo.png">
+     <!--Header-->
+     <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero"><h1><span>Y</span>assine<span>C</span>habab</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div>
+                </div>
+                <ul>
+                    <li><a href="#hero"data-after="Home">Home</a></li>
+                    <li><a href="#Parcours"data-after="Parcours">Parcours</a></li>
+                    <li><a href="#contact"data-after="contact">contact</a></li>
 
+                </ul>
+
+            </div>
+        </div> </section>
+     <!-- End Header-->
+
+
+  <!--Hero Section--> 
+  <section id="hero">
+    <div class="hero container">
+        <div>
+            <h1>Hello, <span></span></h1>
+            <h1>My Name is Yassine<span></span></h1>
+            <h1>développeur web <span></span></h1>
+
+            <a href="#Parcours" type="button" class="cta">Welcom</a>
+            
         </div>
-        <input type="checkbox" id="nav_check" hidden>
-        <nav> 
-        <!-- <nav class="logo"> -->
-<!-- <img src="logo.png" alt=""> -->
-        <!-- </nav> -->
+    </div>
+  </section>
+  <!-- End Hero Section--> 
 
-        <ul>
-            <li>
-                 <a href="" class="active">Home</a>
-            </li>
-            <li>
-                <a href="">Home</a>
-            </li>
-            <li>
-                <a href="">Home</a>
-            </li>
-        </ul>
-    </nav>
 
-        
+  <!-- Parcours Section-->
+  <section id="parcours">
+    <div class="parcour container">
+        <div class="parcours-top">
+            
+            <h1 class="section-title">Par<span>c</span>ours</h1>
+            <p>Je m'appelle Yassine. J'ai presque 23 ans. Je suis marocain. Je suis arrivé en France en août avec un visa vie privée et familiale. Jusqu’à maintenant j’étais moniteur de kite et de surf à Essaouira. J'ai aussi fait la gestion du centre plusieurs mois (kite paradise). Il y a la publicité, la communication, l'organisation des cours avec les autres moniteurs, le paiement, la comptabilité. C'est une responsabilité importante. Je travaille depuis l'âge de 15 ans alors je pense que je suis courageux.
+                Je suis passionné par les sports de glisse. Je veux me reconvertir dans le développement web. J'ai besoin d'un métier stable, flexible, créatif. Je suis travailleur et motivé.
+               J’ai déjà eu la chance de participer à l’Apple Fondation Program, et maintenant je m’investis à fond dans ma formation Développeur web et mobile avec Simplon !
+               </p>
+               <div class="parcour-bottom"></div>
+            </div>
+        </div>
+    </div>
 
-        
-    </header>
+  </section>
+
+  <!-- End Parcours Section--> 
+  <!-- contact Section-->
+  <section id="contact">
+    <div class="contact container">
+        <div><h1 class="section-title">Contact <span>info</span></h1></div>
+        <div class="contact-items">
+            <div class="contact-item">
+                <img src="https://img.icons8.com/wired/64/ringer-volume.png"/>
+            </div>
+        </div>
+    </div>
+  </section> 
+  <!-- End contact Section--> 
+   
+<script src="./app.js"></script>
 </body>
 </html>
